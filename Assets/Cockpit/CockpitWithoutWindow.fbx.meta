@@ -8,19 +8,17 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Cockpit_mat
-    second: {fileID: -3865873013565550301, guid: 1ddb0dbd5f9a886418e29cb4e102385b,
-      type: 3}
+    second: {fileID: 2100000, guid: 555f4fa470313c04fbc42293b3ddde0b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Glass_mat
-    second: {fileID: 415710168923289948, guid: 1ddb0dbd5f9a886418e29cb4e102385b, type: 3}
+    second: {fileID: 2100000, guid: d1c16f0a4c1fb6a458764525ec46577e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Pilot_seats_mat
-    second: {fileID: -618239046991756307, guid: 1ddb0dbd5f9a886418e29cb4e102385b,
-      type: 3}
+    second: {fileID: 2100000, guid: 0de8fdbb327627a4da4668bfef9a6210, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
