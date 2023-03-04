@@ -812,15 +812,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1287502831}
+  - component: {fileID: 1287502841}
   - component: {fileID: 1287502835}
+  - component: {fileID: 1287502843}
+  - component: {fileID: 1287502836}
   - component: {fileID: 1287502834}
   - component: {fileID: 1287502840}
   - component: {fileID: 1287502839}
   - component: {fileID: 1287502838}
   - component: {fileID: 1287502837}
-  - component: {fileID: 1287502836}
-  - component: {fileID: 1287502841}
-  - component: {fileID: 1287502843}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -863,7 +863,7 @@ MonoBehaviour:
   _maxInteractors: -1
   _maxSelectingInteractors: -1
   _data: {fileID: 0}
-  _pointableElement: {fileID: 0}
+  _pointableElement: {fileID: 1287502836}
   _rigidbody: {fileID: 1287502835}
   _resetGrabOnGrabsUpdated: 1
   _physicsGrabbable: {fileID: 0}
@@ -900,7 +900,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 0
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -26335,7 +26335,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -48861,7 +48861,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -51321,7 +51321,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -58979,7 +58979,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
