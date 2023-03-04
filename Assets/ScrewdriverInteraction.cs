@@ -11,7 +11,7 @@ public class ScrewdriverInteraction : MonoBehaviour
 
     void OnCollisionEnter(Collision coll){
         if(coll.gameObject.tag=="BoxPlane"){
-            box.SetActive(false);
+            Destroy(coll.gameObject);
         }
     }
     // Start is called before the first frame update
