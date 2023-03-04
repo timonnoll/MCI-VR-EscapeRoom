@@ -13745,6 +13745,7 @@ GameObject:
   - component: {fileID: 2775826633423283651}
   - component: {fileID: 2775826633423283650}
   - component: {fileID: 2775826633423283649}
+  - component: {fileID: 2775826633423283652}
   m_Layer: 0
   m_Name: Screwdriver
   m_TagString: Untagged
@@ -18929,6 +18930,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2775826633423283652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901007932032299168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bedaac29a943f844a7074b53c8bdf9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _grabbable: {fileID: 2775826633423283650}
+  _rigidbody: {fileID: 2775826633423283651}
+  _scaleMassWithSize: 1
 --- !u!23 &2778551392639239148
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27267,6 +27283,7 @@ GameObject:
   - component: {fileID: 4144491285920500207}
   - component: {fileID: 4144491285920500206}
   - component: {fileID: 4144491285920500209}
+  - component: {fileID: 4144491285920500210}
   m_Layer: 0
   m_Name: battery
   m_TagString: Untagged
@@ -27363,6 +27380,21 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -2124705421725058983, guid: 89aa14e6b477685448bd20dbb5bfdcb5, type: 3}
+--- !u!114 &4144491285920500210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4144491285920500205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bedaac29a943f844a7074b53c8bdf9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _grabbable: {fileID: 4144491285920500207}
+  _rigidbody: {fileID: 4144491285920500208}
+  _scaleMassWithSize: 1
 --- !u!23 &4147940244939648792
 MeshRenderer:
   m_ObjectHideFlags: 0
