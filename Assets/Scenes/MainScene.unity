@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f975c9b268c0f04d96b22c423c1a9d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentTime: 30
+  currentTime: 300
   displayTime: 0
   displayText: {fileID: 104733655}
 --- !u!1 &744980799
@@ -1044,8 +1044,8 @@ GameObject:
   - component: {fileID: 1356442050}
   - component: {fileID: 1356442054}
   - component: {fileID: 1356442053}
-  - component: {fileID: 1356442058}
   - component: {fileID: 1356442057}
+  - component: {fileID: 1356442058}
   - component: {fileID: 1356442056}
   - component: {fileID: 1356442055}
   m_Layer: 0
@@ -1102,8 +1102,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 124f4583f657475469a45ab6fca8f921, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _pivotTransform: {fileID: 1356442048}
-  _rotationAxis: 1
+  _pivotTransform: {fileID: 0}
+  _rotationAxis: 0
   _constraints:
     MinAngle:
       Constrain: 0
