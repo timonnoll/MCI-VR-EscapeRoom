@@ -10,7 +10,7 @@ public class ScrewdriverInteraction : MonoBehaviour
     public GameObject box;
 
     void OnCollisionEnter(Collision coll){
-        if(coll.gameObject.tag=="BoxPlane"){
+        if(coll.gameObject.name=="BoxPlane"){
             Destroy(coll.gameObject);
         }
     }
