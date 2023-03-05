@@ -1497,6 +1497,7 @@ GameObject:
   - component: {fileID: 534698508}
   - component: {fileID: 534698507}
   - component: {fileID: 534698506}
+  - component: {fileID: 534698511}
   m_Layer: 0
   m_Name: BoxPlane
   m_TagString: Untagged
@@ -1529,7 +1530,7 @@ MeshCollider:
   m_GameObject: {fileID: 534698505}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
@@ -1599,6 +1600,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: -6, y: -11, z: 0}
+--- !u!65 &534698511
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534698505}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 0.000000018626451, z: 10.000001}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &557796294
 GameObject:
   m_ObjectHideFlags: 0
