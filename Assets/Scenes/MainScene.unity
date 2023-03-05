@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5169482, g: 0.44357854, b: 0.36411244, a: 1}
+  m_IndirectSpecularColor: {r: 0.95696557, g: 0.6994122, b: 0.4717216, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -72903,7 +72903,7 @@ GameObject:
   - component: {fileID: 8783626683592377493}
   - component: {fileID: 8783626683592377494}
   m_Layer: 0
-  m_Name: Cab_wall_geo_126
+  m_Name: Door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
