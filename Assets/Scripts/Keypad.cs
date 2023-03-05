@@ -9,7 +9,7 @@ public class Keypad : MonoBehaviour
     [SerializeField] private TMP_Text Ans;
     [SerializeField] private Animator Door;
 
-    private string Answer = "123456";
+    private string Answer = "123";
 
     public void Number(int number)
     {
@@ -18,7 +18,7 @@ public class Keypad : MonoBehaviour
 
     public void Execute()
     {
-        if(Ans.text == Answer)
+        if(String.Equals(Ans.text, Answer))
         {
             Ans.text = "Correct";
             Door.SetBool("Open", true);
@@ -27,6 +27,7 @@ public class Keypad : MonoBehaviour
         else
         {
             Ans.text = "Invalid";
+		Ans.text = "";	
         }
     }
 
