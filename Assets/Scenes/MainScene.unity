@@ -2503,7 +2503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ans: {fileID: 1917047951}
-  Door: {fileID: 0}
+  Door: {fileID: 8783626683592377494}
 --- !u!114 &557796297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72903,7 +72903,7 @@ GameObject:
   - component: {fileID: 8783626683592377493}
   - component: {fileID: 8783626683592377494}
   m_Layer: 0
-  m_Name: Door
+  m_Name: Cab_wall_geo_126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
