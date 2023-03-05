@@ -8,9 +8,11 @@ using UnityEngine.Events;
 public class ScrewdriverInteraction : MonoBehaviour
 {
     public GameObject box;
+    new public AudioSource audio;
 
     void OnTriggerEnter(Collider coll){
         if(coll.gameObject.name=="BoxPlane"){
+            audio.Play();
             Destroy(box);
         }
     }
