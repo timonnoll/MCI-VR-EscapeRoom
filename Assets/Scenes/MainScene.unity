@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.95696557, g: 0.6994122, b: 0.4717216, a: 1}
+  m_IndirectSpecularColor: {r: 0.5169482, g: 0.44357854, b: 0.36411244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -515,6 +515,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 95868202}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Image, UnityEngine.UI
+        m_MethodName: set_material
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2100000, guid: 517c3f5968a64554ba932785ff02721e,
+            type: 2}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Material, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &95868202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -636,7 +649,7 @@ MonoBehaviour:
   _pointableElement: {fileID: 95868204}
   _surface: {fileID: 1456289201}
   _proximityField: {fileID: 1975481122}
-  _maxDistance: 0.003
+  _maxDistance: 0.005
   _enterHoverDistance: 0
   _releaseDistance: 0.25
   _tiebreakerScore: 0
