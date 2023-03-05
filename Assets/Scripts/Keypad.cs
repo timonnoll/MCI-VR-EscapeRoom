@@ -18,7 +18,7 @@ public class Keypad : MonoBehaviour
 
     public void Execute()
     {
-        if(String.Equals(Ans.text, Answer))
+        if(Ans.text == Answer)
         {
             Ans.text = "Correct";
             Door.SetBool("Open", true);
