@@ -10,7 +10,7 @@ public class Keypad : MonoBehaviour
     [SerializeField] private TMP_Text Ans;
     [SerializeField] private Animator Door;
 
-    private string Answer = "123";
+    private string Answer = "1976";
 
     public void Number(int number)
     {
