@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class Keypad : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class Keypad : MonoBehaviour
 
     public void Execute()
     {
-        if(Ans.text == Answer)
+        if(String.Equals(Ans.text, Answer) == true)
         {
             Ans.text = "Correct";
             Door.SetBool("Open", true);
